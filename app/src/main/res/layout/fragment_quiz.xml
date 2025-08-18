@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#97B8B2"
+    tools:context=".QuizFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+        android:background="@drawable/toolbar"
+    >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:src="@drawable/brain_guru_intellectual_svgrepo_com"/>
+
+
+
+        <TextView
+            android:id="@+id/titleQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:text="@string/quizopedia"
+            android:textColor="#ECF2F2"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints,TextSizeCheck"
+        />
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+
+            >
+
+            <TextView
+                android:id="@+id/questionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:text="@string/_1"
+                android:textColor="#EBF0F0"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="normal"
+                tools:ignore="MissingConstraints,TextSizeCheck"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:text="@string/gg5"
+                android:textColor="#EBF0F0"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,TextSizeCheck"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="18dp" />
+
+            <TextView
+                android:id="@+id/totalQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:text="@string/_20"
+                android:textColor="#EDF2F2"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,TextSizeCheck"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="18dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/questionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/question_bg"
+            android:padding="@dimen/_16sdp"
+            android:elevation="@dimen/_16sdp"
+            android:text="@string/what_is_the_smallest_country_in_the_world_by_land_area"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold|italic"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_margin="@dimen/_8sdp">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/_8sdp"
+
+          android:text="@string/a"
+          android:textColor="#01100F"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          tools:ignore="TextSizeCheck" />
+
+      <TextView
+          android:id="@+id/option1"
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/_5sdp"
+          android:background="@drawable/sub_item_bg"
+          android:padding="@dimen/_16sdp"
+          android:text="@string/monaco"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_15sdp"
+          android:textStyle="normal"
+          tools:ignore="TextSizeCheck"
+          android:elevation="@dimen/_8sdp"/>
+  </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/_8sdp"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8sdp"
+
+                    android:text="@string/b"
+                    android:textColor="#01100F"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/option2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/sub_item_bg"
+                    android:padding="@dimen/_16sdp"
+                    android:text="@string/nauru"
+                    android:elevation="@dimen/_8sdp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="normal"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8sdp"
+
+                    android:text="@string/c"
+                    android:textColor="#01100F"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/option3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/sub_item_bg"
+                    android:padding="@dimen/_16sdp"
+                    android:elevation="@dimen/_8sdp"
+                    android:text="@string/vatican_city"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="normal"
+                    tools:ignore="TextSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8sdp"
+
+                    android:text="@string/d"
+                    android:textColor="#01100F"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/option4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/sub_item_bg"
+                    android:padding="@dimen/_16sdp"
+                    android:text="@string/maldives"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:elevation="@dimen/_8sdp"
+                    android:textStyle="normal"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/_16sdp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="29dp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/next"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignRight="@+id/btnNext"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/todo7"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_sm_right_svgrepo_com" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+

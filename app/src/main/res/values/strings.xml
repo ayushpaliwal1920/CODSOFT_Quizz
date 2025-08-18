@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome_to_quizopedia">Welcome to Quizopedia!</string>
+    <string name="join_us_today_nready_to_challenge_your_brain_nfill_in_your_details_to_create_a_new_account">Join Us Today! \nReady to challenge your brain?\nFill in your details to create a new account.</string>
+    <string name="todo">TODO</string>
+    <string name="get_started">Get Started</string>
+    <string name="todo1">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="congratulation">CONGRATULATION !</string>
+    <string name="_5_correct">5 Correct</string>
+    <string name="_5_wrong">5 Wrong</string>
+    <string name="todo3">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="gg5">/</string>
+    <string name="b">B.</string>
+    <string name="a">A.</string>
+    <string name="c">C.</string>
+    <string name="d">D.</string>
+    <string name="next">Next</string>
+    <string name="monaco">Monaco</string>
+    <string name="vatican_city">Vatican City</string>
+    <string name="maldives">Maldives</string>
+    <string name="nauru">Nauru</string>
+    <string name="what_is_the_smallest_country_in_the_world_by_land_area">What is the smallest country in the world by land area?</string>
+    <string name="_1">1</string>
+    <string name="_20">20</string>
+    <string name="quizopedia">QuizoPedia</string>
+    <string name="quizopedia1">QuizoPedia</string>
+    <string name="let_s_try_your_brain3">Let\'s ! try your brain</string>
+    <string name="quizzz">QuizoPedia</string>
+    <string name="todo8">TODO</string>
+    <string name="explore_more">Explore More !</string>
+    <string name="try_again">Try Again</string>
+    <string name="todo9">TODO</string>
+    <string name="scorecard">ScoreCard</string>
+    <string name="let_s_see_how_smart_you_really_are">Let’s see how smart you really are!</string>
+</resources>

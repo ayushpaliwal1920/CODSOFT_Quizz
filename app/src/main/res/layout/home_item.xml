@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+   android:padding="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical"
+   android:layout_marginStart="2dp"
+   android:layout_alignParentEnd="true"
+    android:elevation="@dimen/_18sdp"
+    android:layout_marginEnd="@dimen/_2sdp"
+    android:background="@drawable/home_item">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_8sdp"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_8sdp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic of Quiz"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="#00433F" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="field"
+            android:paddingTop="@dimen/_4sdp"
+            android:textStyle="normal"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="#00433F" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/arrow_sm_right_svgrepo_com"
+        app:tint="#094745"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
